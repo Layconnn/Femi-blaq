@@ -1,0 +1,174 @@
+body {
+    background-color: #0A0119;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.flex-item {
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.about {
+    color: white;
+    margin-left: 705px;
+    margin-right: 80px;
+    font-size: 22px;
+    margin-top: 106px;
+}
+.project {
+    color: white;
+    margin-right: 80px;
+    font-size: 22px;
+    margin-top: 106px;
+}
+.contact {
+    color: white;
+    margin-right: 100px;
+    font-size: 22px;
+    margin-top: 106px;
+}
+h2 {
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+h1 {
+    color: white;
+    margin-left: 100px;
+}
+.img1 {
+    float: right;
+    width: 519px;
+    height: 640px;
+    margin-left: 113px;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+.text1 {
+    color: white;
+    margin-left: 100px;
+    margin-right: 113px;
+    font-size: 32px;
+}
+.button1 {
+    width: 184px;
+    height: 48px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 32px;
+}
+.img2 {
+    float: left;
+    width: 348px;
+    height: 429.13px;
+    margin-left: 100px;
+}
+.text2 {
+    color: white;
+    margin-left: 732px;
+    margin-right: 100px;
+    margin-top: 98px;
+    font-size: 32px;
+}
+.button2 {
+    width: 184px;
+    height: 48px;
+    margin-left: 732px;
+    margin-right: 524px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+h4 {
+    color: white;
+    text-align: center;
+    margin-top: 120.87px;
+    font-size: 32px;
+}
+.flex-images {
+    margin-left: 100px;
+}
+.fimg1 {
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 397px;
+    height: 397px;
+    margin-right: 22px;
+}
+.fimg2 {
+    border-radius: 10px;
+    margin-right: 22px;
+}
+.fimg3 {
+    border-radius: 10px;
+    margin-right: 85px;
+}
+.fimg4 {
+    border-radius: 10px;
+    margin-right: 22px;
+    margin-left: 100px;
+    margin-top: 148px;
+}
+.fimg5 {
+    border-radius: 10px;
+    margin-right: 524px;
+    margin-top: 148px;
+}
+.cap1 {
+    color: white;
+    font-size: 18px;
+    margin-left: 100px;
+}
+.bottom-info {
+    color: white;
+    text-align: center;
+}
+.info1 {
+    font-size: 22px;
+    margin-top: 128px;
+}
+.info2 {
+    font-size: 36px;
+    margin-top: 32px;
+}
+.info3 {
+    font-size: 48px;
+    margin-top: 32px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 225px;
+}
+.bottom-femi {
+    color: white;
+    font-size: 36px;
+    margin-left: 100px;
+}
+.pic1 {
+    margin-left: 1010px;
+    margin-right: 86px;
+}
+.pic2 {
+    margin-right: 81.55px;
+}
+.pic3 {
+    margin-right: 82px;
+}
+.pic4 {
+    margin-right: 100px;
+}
+.okay {
+    color: #F9F5FF;
+    margin-top: 80px;
+    margin-left: 102px;
+    margin-bottom: 139px;
+}
