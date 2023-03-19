@@ -1,34 +1,36 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #0A0119;
 }
 .flex-container {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+    flex-wrap: wrap;
 }
 .flex-item {
     color: white;
     font-size: 30px;
+    margin-top: 100px;
     margin-left: 100px;
 }
 .about {
     color: white;
     margin-left: 705px;
-    margin-right: 80px;
     font-size: 22px;
-    margin-top: 106px;
+    margin-top: 100px;
 }
 .project {
     color: white;
-    margin-right: 80px;
     font-size: 22px;
-    margin-top: 106px;
+    margin-top: 100px;
 }
 .contact {
     color: white;
-    margin-right: 100px;
     font-size: 22px;
-    margin-top: 106px;
+    margin-top: 100px;
+    margin-right: 100px;
 }
 h2 {
     color: white;
@@ -41,17 +43,17 @@ h1 {
 }
 .img1 {
     float: right;
-    width: 519px;
-    height: 640px;
-    margin-left: 113px;
+    width: 300px;
+    margin-top: -70px;
+    line-height: 80px;
     margin-right: 100px;
-    margin-top: 80px;
 }
 .text1 {
     color: white;
+    width: 608px;
+    height: 84px;
     margin-left: 100px;
-    margin-right: 113px;
-    font-size: 32px;
+    font-size: 18px;
 }
 .button1 {
     width: 184px;
@@ -63,8 +65,8 @@ h1 {
 h3 {
     color: white;
     text-align: center;
-    margin-top: 300px;
-    font-size: 32px;
+    margin-top: 127.08px;
+    font-size: 36px;
 }
 .img2 {
     float: left;
@@ -74,16 +76,17 @@ h3 {
 }
 .text2 {
     color: white;
-    margin-left: 732px;
-    margin-right: 100px;
+    width: 608px;
+    height: 252px;
+    margin-left: 568px;
+    margin-right: 120px;
     margin-top: 98px;
-    font-size: 32px;
+    font-size: 18px;
 }
 .button2 {
     width: 184px;
     height: 48px;
-    margin-left: 732px;
-    margin-right: 524px;
+    margin-left: 120px;
     border-radius: 20px;
     font-size: 20px;
 }
@@ -94,33 +97,29 @@ h4 {
     font-size: 32px;
 }
 .flex-images {
-    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 1rem;
 }
 .fimg1 {
     border-radius: 10px;
-    margin-left: 100px;
-    width: 397px;
-    height: 397px;
-    margin-right: 22px;
 }
 .fimg2 {
     border-radius: 10px;
-    margin-right: 22px;
 }
 .fimg3 {
     border-radius: 10px;
-    margin-right: 85px;
 }
 .fimg4 {
     border-radius: 10px;
-    margin-right: 22px;
-    margin-left: 100px;
-    margin-top: 148px;
+    margin-top: 68px;
 }
 .fimg5 {
     border-radius: 10px;
-    margin-right: 524px;
-    margin-top: 148px;
+    margin-top: 68px;
 }
 .cap1 {
     color: white;
@@ -147,6 +146,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin-top: 225px;
+    flex-wrap: wrap;
 }
 .bottom-femi {
     color: white;
@@ -158,17 +158,25 @@ h4 {
     margin-right: 86px;
 }
 .pic2 {
-    margin-right: 81.55px;
-}
-.pic3 {
-    margin-right: 82px;
+    margin-right: 50px;
 }
 .pic4 {
-    margin-right: 100px;
+    margin-left: 50px;
 }
 .okay {
     color: #F9F5FF;
     margin-top: 80px;
     margin-left: 102px;
     margin-bottom: 139px;
+}
+.tictok {
+    color: white;
+    margin-top: 30px;
+}
+.inline {
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
 }
