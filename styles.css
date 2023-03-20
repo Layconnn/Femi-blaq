@@ -7,11 +7,10 @@ body {
 .flex-container {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 .flex-item {
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     margin-top: 100px;
     margin-left: 100px;
 }
@@ -45,6 +44,7 @@ h1 {
     float: right;
     width: 300px;
     margin-top: -70px;
+    margin-left: -100px;
     line-height: 80px;
     margin-right: 100px;
 }
@@ -99,9 +99,8 @@ h4 {
 .flex-images {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 100px;
     padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
     gap: 1rem;
 }
 .fimg1 {
@@ -154,14 +153,14 @@ h4 {
     margin-left: 100px;
 }
 .pic1 {
-    margin-left: 1010px;
-    margin-right: 86px;
+    margin-right: 70px;
 }
 .pic2 {
     margin-right: 50px;
 }
 .pic4 {
     margin-left: 50px;
+    margin-right: 100px;
 }
 .okay {
     color: #F9F5FF;
@@ -173,10 +172,114 @@ h4 {
     color: white;
     margin-top: 30px;
 }
+.tictok1 {
+    color: white;
+    margin-top: 30px;
+}
+.tictok2 {
+    color: white;
+    margin-top: 30px;
+}
+.tictok3 {
+    color: white;
+    margin-top: 30px;
+}
 .inline {
     color: white;
     padding: 5px;
     border: 1px solid white;
     border-radius: 10px;
     text-align: center;
+}
+.inline4 {
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.inline5 {
+    color: white;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+@media (min-width:834px) {
+    .about {
+        margin-right: 60px;
+        margin-left: 210px;
+    }
+    .project {
+        margin-right: 60px;
+    }
+    .contact {
+        margin-right: 100px;
+    }
+    .img1 {
+        float: right;
+        margin-right: 50px;
+    }
+    .text1 {
+        width: 370px;
+        height: 112px;
+    }
+    .text2 {
+        margin-left: 180px;
+        font-size: 16px;
+    }
+    .img2 {
+        margin-left: 50px;
+        margin-right: 100px;
+        width: 340.59px;
+        height: 420px;
+    }
+    .button2 {
+        margin-right: -50px;
+        margin-left: -10px;
+        margin-top: 20px;
+    }
+    .flex-images {
+        display: flex;
+        margin-left: 70px;
+        padding: 5px;
+        gap: 1rem;
+    }
+    .fimg4 {
+        display: none;
+    }
+    .fimg5 {
+        display: none;
+    }
+    .tictok {
+        display: none;
+    }
+    .inline4 {
+        display: none;
+    }
+    .inline5 {
+        display: none;
+    }
+    .fimg1 {
+        width: 336px;
+        height: 336px;
+    }
+    .fimg2 {
+        width: 336px;
+        height: 354.62px;
+    }
+    .fimg3 {
+        width: 366.47px;
+        height: 366.47px;
+        margin-top: 36.15px;
+    }
+    .bottom-info {
+        margin-left: 0;
+    }
+    .pic1 {
+        margin-left: 30px;
+    }
+    .pic4 {
+        margin-right: 70px;
+    }
 }
