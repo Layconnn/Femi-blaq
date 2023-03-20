@@ -16,7 +16,7 @@ body {
 }
 .about {
     color: white;
-    margin-left: 705px;
+    margin-left: 500px;
     font-size: 22px;
     margin-top: 100px;
 }
@@ -29,7 +29,7 @@ body {
     color: white;
     font-size: 22px;
     margin-top: 100px;
-    margin-right: 100px;
+    margin-right: 70px;
 }
 h2 {
     color: white;
@@ -43,6 +43,7 @@ h1 {
 .img1 {
     float: right;
     width: 300px;
+    height: 400px;
     margin-top: -70px;
     margin-left: -100px;
     line-height: 80px;
@@ -79,7 +80,7 @@ h3 {
     width: 608px;
     height: 252px;
     margin-left: 568px;
-    margin-right: 120px;
+    margin-right: 150px;
     margin-top: 98px;
     font-size: 18px;
 }
@@ -87,6 +88,7 @@ h3 {
     width: 184px;
     height: 48px;
     margin-left: 120px;
+    margin-top: -80px;
     border-radius: 20px;
     font-size: 20px;
 }
@@ -105,20 +107,25 @@ h4 {
 }
 .fimg1 {
     border-radius: 10px;
+    width: 336px;
 }
 .fimg2 {
     border-radius: 10px;
+    width: 336px;
 }
 .fimg3 {
     border-radius: 10px;
+    width: 336px;
 }
 .fimg4 {
     border-radius: 10px;
     margin-top: 68px;
+    width: 336px;
 }
 .fimg5 {
     border-radius: 10px;
     margin-top: 68px;
+    width: 336px;
 }
 .cap1 {
     color: white;
@@ -205,7 +212,7 @@ h4 {
     border-radius: 10px;
     text-align: center;
 }
-@media screen and (min-width:834px) {
+@media screen and (max-width:834px) {
     .about {
         margin-right: 60px;
         margin-left: 210px;
